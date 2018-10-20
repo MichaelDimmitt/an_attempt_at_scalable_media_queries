@@ -28,3 +28,20 @@ https://github.com/Snugug/eq.js
 https://github.com/marcj/css-element-queries
 
 https://hugogiraudel.com/2014/02/06/calc-css-riddle/
+
+## Still to be done: 
+#### 1) get value of width of div via javascript.
+shrink that down to a truncated value.
+
+2020px / 500 = 4px
+1501px / 500 = 3px
+725px  / 500 = 1px
+273px  / 500 = 0px
+
+#### 2) put the truncated chunk variable computed in step 1 into media query
+@media only screen and (max-width: calc( var(--x) * 1220px ) {
+    .custom { width: calc( var(--x) * 359px ); }
+}
+
+#### 3) make sure it works. 
+
