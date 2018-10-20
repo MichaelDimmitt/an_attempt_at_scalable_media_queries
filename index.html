@@ -18,6 +18,7 @@
 #div2 { width: var(--width2); }
 #div3 { width: var(--width3); }
 #div4 { width: var(--width4); }
+#div5 { width: var(--width5); }
 </style>
 </head>
 
@@ -26,8 +27,9 @@
 <div id="div1" class="divcommon">Some text...</div>
 <div id="div2" class="divcommon">Some text...</div>
 <div id="div3" class="divcommon">Some text...</div>
-<!-- Ha ha does not work but the attempt was made -->
-<div style="--width4: calc(1 * 100px);" class="divcommon">Some text...</div>
+<div id="div4" style="--width4: calc(3 * 100px);" class="divcommon">Some text...</div>
+<div id="div5" style="--width4: calc(3 * 100px);" class="divcommon">Div not passed correct style... 😜 </div>
+<div id="div5" style="--width5: 200px" class="divcommon">Some text...</div>
 
 </body>
 </html>
