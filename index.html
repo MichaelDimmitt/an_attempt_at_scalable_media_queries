@@ -16,6 +16,8 @@
 #div1 { width: var(--width1); }
 #div2 { width: var(--width2); }
 #div3 { width: var(--width3); }
+#div4 { width: var(--width4); }
+
 
 /* media queries cannot be inline. next step... offload to css file.
 @media only screen and (max-width: 400px ) {
@@ -48,6 +50,8 @@
 <div id="div1" class="divcommon">Some text...</div>
 <div id="div2" class="divcommon">Some text...</div>
 <div id="div3" class="divcommon">Some text...</div>
+<!-- Ha ha does not work but the attempt was made -->
+<div style="--width4: calc(1 * 100px);" class="divcommon">Some text...</div>
 
 </body>
 </html>
