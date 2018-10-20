@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" href="media_queries.css">
 <style>
 :root {
   --width1: calc(70% - 100px);
@@ -17,33 +18,8 @@
 #div2 { width: var(--width2); }
 #div3 { width: var(--width3); }
 #div4 { width: var(--width4); }
-
-
-/* media queries cannot be inline. next step... offload to css file.
-@media only screen and (max-width: 400px ) {
-    .div1 { 
-      width: var(--width1)
-    }
-}
-
-@media only screen and (max-width: var(--width1) ) {
-    .div1 { 
-      width: var(--width1)
-    }
-}
-
-@media only screen and (max-width: var(--width2) ) {
-    .div1 { 
-      width: var(--width2)
-    }
-}
-*/
-/* goal
-@media only screen and (max-width: calc( var(--x) * 1220px ) {
-    .custom { width: calc( var(--x) * 359px ); }
-}
-*/
 </style>
+</head>
 
 <h1>The calc() Function</h1>
 
