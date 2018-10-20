@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+:root {
+  --width1: calc(70% - 100px);
+  --width2: calc(1 *  100px);
+  --width3: calc(2 *  100px);
+}
+.divcommon {
+  border: 1px solid black;
+  background-color: yellow;
+  padding: 5px;
+  text-align: center;
+}
+#div1 { width: var(--width1); }
+#div2 { width: var(--width2); }
+#div3 { width: var(--width3); }
+</style>
+</head>
+<body>
+
+<h1>The calc() Function</h1>
+
+<div id="div1" class="divcommon">Some text...</div>
+<div id="div2" class="divcommon">Some text...</div>
+<div id="div3" class="divcommon">Some text...</div>
+
+</body>
+</html>
