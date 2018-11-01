@@ -1,4 +1,4 @@
-<button 
+<button
   style="
     --width-size: 11px;
   "
@@ -23,13 +23,13 @@ https://www.sitepoint.com/beyond-media-queries-time-get-elemental/
 
 element queries:
 https://github.com/tysonmatanich/elementQuery
-https://github.com/filamentgroup/elementary
-https://github.com/Snugug/eq.js
-https://github.com/marcj/css-element-queries
+<br/>https://github.com/filamentgroup/elementary
+<br/>https://github.com/Snugug/eq.js
+<br/>https://github.com/marcj/css-element-queries
 
 https://hugogiraudel.com/2014/02/06/calc-css-riddle/
 
-## Still to be done: 
+## Still to be done:
 #### 1) get value of width of div via javascript.
 shrink that down to a truncated value.
 
@@ -43,5 +43,5 @@ shrink that down to a truncated value.
     .custom { width: calc( var(--x) * 359px ); }
 }
 
-#### 3) make sure it works. 
+#### 3) make sure it works.
 
